@@ -103,6 +103,21 @@ Located in `/sql/`, including:
 - Update segments quarterly based on customer behavior
 
 ---
+---
+
+## 📘 Summary Report
+
+For a full narrative walkthrough of the project — from cleaning the data to building the Tableau story — read the PDF summary below:
+
+📄 [**TravelTide: A Data Journey into User Segmentation**](summary/TravelTide_User_Segmentation_Summary.pdf)
+
+This document includes:
+- Project motivation and goals
+- Step-by-step approach (cleaning, feature engineering, segmentation)
+- Dashboard design logic
+- Final insights and business takeaways
+
+---
 
 ## 👤 Author
 
