@@ -110,7 +110,7 @@ Located in the `/sql/` folder:
 
 For a full narrative walkthrough of the project — from cleaning the data to building the Tableau story — read the PDF summary below:
 
-📄 [**TravelTide: A Data Journey into User Segmentation**](summary/TravelTide_User_Segmentation_Summary.pdf)
+📄 [**TravelTide: A Data Journey into User Segmentation**](Summary/TravelTide_Project_Story_Summary.pdf)
 
 This document includes:
 - Project motivation and goals
