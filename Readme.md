@@ -92,7 +92,7 @@ Located in the `/sql/` folder:
 
 - [01_exploration.sql](sql/01_exploration.sql)
 - [02_cleaning_and_joins.sql](sql/02_cleaning_and_joins.sql)
-- [03_feature_engineering.sql](sql/03_aggregated_user_table.sql)
+- [03_aggregated_user_table.sql](sql/03_aggregated_user_table.sql)
 - [04_feature_engineering.sql](sql/04_feature_engineering.sql)
 - [05_segmentation.sql](sql/05_segmentation.sql)
 
