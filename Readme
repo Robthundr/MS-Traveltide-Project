@@ -86,13 +86,14 @@ This dashboard breaks down segment sizes, average bookings, discount sensitivity
 
 ---
 
-## 📈 Sample SQL Files
+## 📈 SQL Files
 
-Located in `/sql/`, including:
-- `01_exploration.sql`
-- `02_cleaning_and_joins.sql`
-- `03_feature_engineering.sql`
-- `04_segmentation.sql`
+Located in the `/sql/` folder:
+
+- [01_exploration.sql](sql/01_exploration.sql)
+- [02_cleaning_and_joins.sql](sql/02_cleaning_and_joins.sql)
+- [03_feature_engineering.sql](sql/03_feature_engineering.sql)
+- [04_segmentation.sql](sql/04_segmentation.sql)
 
 ---
 
@@ -102,7 +103,6 @@ Located in `/sql/`, including:
 - Track effectiveness by cluster (A/B test emails)
 - Update segments quarterly based on customer behavior
 
----
 ---
 
 ## 📘 Summary Report
