@@ -36,8 +36,7 @@ The project uses data from 4 tables:
 - **PostgreSQL** (via Beekeeper Studio)
 - **SQL** for all data transformations
 - **Tableau** for final dashboarding
-- **GitHub** for version control and documentation
-- **PowerPoint** / **Google Slides** for final presentation
+- **GitHub** for version control, documentation and final presentation
 
 ---
 
@@ -59,9 +58,31 @@ The project uses data from 4 tables:
 - Created behavioral segments using SQL logic (no ML)
 - Assigned the best-fitting perk to each segment
 
-### 4. Dashboard & Presentation
-- Tableau dashboards built to visualize KPIs and clusters
-- Final recommendations included tracking performance via CTR, sign-up conversion, and perk redemption rates
+### 📥 Dashboard Visuals
+
+The Tableau dashboards below visualize key user behavior patterns, segment characteristics, and the perks most likely to drive rewards program engagement.
+
+#### 1. User Lifecycle: Signups vs Activity Over Time
+This view tracks new user sign-ups and active usage trends across customer segments.  
+🔍 Key Insight: July saw a large influx of users (especially General and Explorer), followed by a notable drop in October.
+
+![User Lifecycle](dashboards/user_lifecycle.png)
+
+---
+
+#### 2. Customer Behavior & Segment Profiles
+This dashboard breaks down segment sizes, average bookings, discount sensitivity, and perk assignment.
+
+- **Top Section**: Segment distribution by volume  
+- **Middle Section**: Avg. bookings per user & discount usage  
+- **Bottom Section**: Perk distribution across segments
+
+🔍 Key Insight:  
+- *High Value* users book the most and show slightly lower discount sensitivity  
+- *Explorer* segment responds well to “Travel Points”  
+- *Casual* segment prefers “Welcome Back” incentives
+
+![Customer Behavior Segment](dashboards/customer_behavior_segment.png)
 
 ---
 
@@ -77,11 +98,10 @@ Located in `/sql/`, including:
 
 ## 📊 Dashboards
 
-Screenshots or .twbx files available in `/dashboards/`  
+Screenshots files available in `/dashboards/`  
 Includes:
-- Booking trends
-- Customer segment profiles
-- Perk match insights
+- Customer behavior Segments
+- User Lifecycle
 
 ---
 
